@@ -76,19 +76,3 @@ flowchart LR
 ## Licença
 
 MIT — veja [LICENSE](./LICENSE).
-
-## Publicação
-
-O repositório foi preparado localmente. Para publicar no GitHub (quando desejar):
-
-```bash
-cd ~/Documentos/portfolio-sistema-compras-corporativo
-gh repo create case-sistema-compras-corporativo --public --source=. --remote=origin --push
-```
-
-Ou, com remote manual:
-
-```bash
-git remote add origin git@github.com:<seu-usuario>/case-sistema-compras-corporativo.git
-git push -u origin main
-```
