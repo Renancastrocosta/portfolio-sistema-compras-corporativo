@@ -32,7 +32,7 @@ Atuação **full-stack / arquitetura / documentação**: definição de módulos
 
 ## Visão de arquitetura
 
-![Visão de arquitetura](./assets/visao-arquitetura.svg)
+![Visão de arquitetura](./assets/visao-arquitetura.png)
 
 ```mermaid
 flowchart LR
