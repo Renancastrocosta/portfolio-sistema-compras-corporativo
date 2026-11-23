@@ -1,0 +1,35 @@
+# Dependências e builds
+node_modules/
+dist/
+build/
+coverage/
+.turbo/
+.next/
+out/
+
+# Ambiente e secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+tfvars
+*.tfvars
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# IDE / SO
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs e temporários
+*.log
+npm-debug.log*
+tmp/
+temp/
+.cache/

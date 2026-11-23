@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Visão de arquitetura  Sistema de Compras Corporativo</title>
+  <desc id="desc">Fluxo entre SPA React, API NestJS, PostgreSQL, Redis/BullMQ, S3, CloudFront e Lambda OCR</desc>
+  <defs>
+    <style>
+      .box { fill: #f8fafc; stroke: #0f766e; stroke-width: 2; rx: 10; }
+      .db { fill: #ecfdf5; stroke: #047857; stroke-width: 2; }
+      .label { font-family: "Noto Sans", Arial, sans-serif; font-size: 14px; fill: #134e4a; font-weight: 600; }
+      .sub { font-family: "Noto Sans", Arial, sans-serif; font-size: 11px; fill: #475569; }
+      .title { font-family: "Noto Sans", Arial, sans-serif; font-size: 18px; fill: #0f172a; font-weight: 700; }
+      .arrow { stroke: #64748b; stroke-width: 2; fill: none; marker-end: url(#seta); }
+    </style>
+    <marker id="seta" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#64748b" />
+    </marker>
+  </defs>
+  <rect width="960" height="420" fill="#f1f5f9" />
+  <text x="24" y="36" class="title">Sistema de Compras Corporativo  visão de arquitetura</text>
+
+  <rect class="box" x="40" y="80" width="140" height="64" />
+  <text x="70" y="108" class="label">Usuário</text>
+  <text x="58" y="128" class="sub">navegador / perfil RBAC</text>
+
+  <rect class="box" x="240" y="80" width="160" height="64" />
+  <text x="270" y="108" class="label">SPA React</text>
+  <text x="258" y="128" class="sub">Vite · Query · shadcn</text>
+
+  <rect class="box" x="480" y="80" width="160" height="64" />
+  <text x="510" y="108" class="label">API NestJS</text>
+  <text x="498" y="128" class="sub">JWT · módulos · filas</text>
+
+  <ellipse class="db" cx="760" cy="112" rx="90" ry="42" />
+  <text x="710" y="108" class="label">PostgreSQL</text>
+  <text x="720" y="128" class="sub">metadados</text>
+
+  <rect class="box" x="480" y="200" width="160" height="64" />
+  <text x="505" y="228" class="label">Redis / BullMQ</text>
+  <text x="498" y="248" class="sub">jobs assíncronos</text>
+
+  <rect class="box" x="720" y="200" width="160" height="64" />
+  <text x="755" y="228" class="label">Bucket S3</text>
+  <text x="738" y="248" class="sub">anexos / estáticos</text>
+
+  <rect class="box" x="480" y="320" width="160" height="64" />
+  <text x="515" y="348" class="label">Lambda OCR</text>
+  <text x="508" y="368" class="sub">extração de texto</text>
+
+  <rect class="box" x="240" y="200" width="160" height="64" />
+  <text x="268" y="228" class="label">CloudFront</text>
+  <text x="252" y="248" class="sub">CDN do frontend</text>
+
+  <rect class="box" x="40" y="200" width="140" height="64" />
+  <text x="55" y="228" class="label">S3 Frontend</text>
+  <text x="58" y="248" class="sub">build estático</text>
+
+  <path class="arrow" d="M180,112 H240" />
+  <path class="arrow" d="M400,112 H480" />
+  <path class="arrow" d="M640,112 H670" />
+  <path class="arrow" d="M560,144 V200" />
+  <path class="arrow" d="M640,232 H720" />
+  <path class="arrow" d="M560,264 V320" />
+  <path class="arrow" d="M640,352 H800 V264" />
+  <path class="arrow" d="M320,144 V200" />
+  <path class="arrow" d="M180,232 H240" />
+</svg>
